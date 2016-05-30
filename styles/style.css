@@ -1,0 +1,88 @@
+body {
+    background-color: 34495e; /* for the tint */
+}
+
+.all-elements{
+    overflow-x:hidden;
+}
+.page-header{
+    background-color:#fafafa;
+    border-bottom:solid 1px #ebebed;
+    height:50px;
+    width:100%;
+    z-index:12;
+    margin-bottom:20px;
+}
+.deploy-sidebar{
+    position: relative;/*规定元素的定位类型。relative
+                                                 生成相对定位的元素，相对于其正常位置进行定位。*/
+    z-index: 999;/*设置元素的堆叠顺序。	*/
+    background-image: url("../images/misc/header-nav.png");
+    background-size: 18px 12px;/*规定背景图片的尺寸。*/
+    background-repeat: no-repeat;/*设置是否及如何重复背景图像。*/
+    background-position: 15px 19px;/*设置背景图像的开始位置*/
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.bread-crumb{
+    position: relative;
+    z-index: 99;
+    display: block;
+    margin-bottom: 16px;
+    margin-top: -35px;
+    text-align: center;
+    color: #212222;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+.deploy-contact{
+    position: relative;
+    right: 0px;
+    top: 0px;
+    z-index: 999;
+    background-image: url("../images/misc/header-mail.png");
+    background-size: 18px 12px;
+    background-position: 12px 18px;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: -50px;
+}
+
+.content-header{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.content-logo{
+    background-image:url(../images/misc/logo-dark.png);
+    background-size:75px 16px;
+    background-repeat:no-repeat;
+    display:block;
+    float:left;/*规定框是否应该浮动。(left向左浮动)*/
+    width:75px;
+    height:16px;
+}
+
+
+.facebook-content{
+    background-image:url(../images/misc/facebook-color.png);
+    background-size:17px 16px;
+    background-repeat:no-repeat;
+    position:absolute;
+    width:20px;
+    height:20px;
+    right:0px;
+}
+
+.twitter-content{
+    background-image:url(../images/misc/twitter-color.png);
+    background-size:17px 16px;
+    background-repeat:no-repeat;
+    position:absolute;
+    width:20px;
+    height:20px;
+    right:40px;
+}

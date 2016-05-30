@@ -1,0 +1,22 @@
+/*////////////////////////*/
+/*Other Classes and Resets*/
+/*////////////////////////*/
+
+.content{
+    margin-left:20px;
+    margin-right:20px;
+}
+.container{
+    margin-bottom:20px;
+}
+.responsive-image{
+    width:100%;
+    margin-bottom:20px;
+}
+.decoration{
+    height: 1px;
+    background-color: rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
